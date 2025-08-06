@@ -270,7 +270,7 @@ def save_image_with_bounding_boxes(encoded_image, reko_response):
         if i > 2:
             break
     # write the image to a file
-    cv2.imwrite('face_bounding_boxes.jpg', image)
+    cv2.imwrite('../imgs/face_bounding_boxes.jpg', image)
     os.system('open -a Preview face_bounding_boxes.jpg')
 
 

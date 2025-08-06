@@ -1,5 +1,3 @@
-#!/usr/local/bin/python3
-
 import cv2
 import boto3
 import random
@@ -132,8 +130,3 @@ def live_object_detection():
 
     cam.release()
     cv2.destroyAllWindows()
-
-
-# Run the main function
-if __name__ == "__main__":
-    live_object_detection()
